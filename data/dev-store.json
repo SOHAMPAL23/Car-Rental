@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Premium Car Rentals",
+      "email": "admin@carrental.com",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/X4ezTSCXJq.NuZPKy",
+      "phone": null,
+      "role": "agency",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Test User",
+      "email": "test.user@example.com",
+      "password": "$2a$12$mVyyb9p3t1ygQVBTdLWTeOgWYg2nAZjjkPxWx52nkUmvdarLzstpO",
+      "phone": null,
+      "role": "customer",
+      "created_at": "2026-04-02T17:20:13.953Z"
+    },
+    {
+      "id": 3,
+      "name": "Soham pal",
+      "email": "sohamlog1@gmail.com",
+      "password": "$2a$12$wZcrGrcS8zdRlXrWJNeJvu98q0D0gtzMEBTDlA5Eu5OQV1sxT0aky",
+      "phone": "+919811434406",
+      "role": "customer",
+      "created_at": "2026-04-02T17:29:57.544Z"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2024,
+      "price_per_day": 65,
+      "image_url": null,
+      "description": "Comfortable midsize sedan with excellent fuel economy.",
+      "available": true,
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "CR-V",
+      "year": 2023,
+      "price_per_day": 85,
+      "image_url": null,
+      "description": "Spacious SUV with smooth handling and plenty of cargo room.",
+      "available": true,
+      "created_at": "2026-01-02T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "brand": "BMW",
+      "model": "3 Series",
+      "year": 2024,
+      "price_per_day": 120,
+      "image_url": null,
+      "description": "Premium sedan with a responsive drive and upscale cabin.",
+      "available": true,
+      "created_at": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2024,
+      "price_per_day": 110,
+      "image_url": null,
+      "description": "Modern electric vehicle with quick acceleration and long range.",
+      "available": true,
+      "created_at": "2026-01-04T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2023,
+      "price_per_day": 95,
+      "image_url": null,
+      "description": "Iconic performance coupe for a more spirited drive.",
+      "available": true,
+      "created_at": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "brand": "Mercedes",
+      "model": "E-Class",
+      "year": 2024,
+      "price_per_day": 145,
+      "image_url": null,
+      "description": "Luxury sedan with refined comfort and advanced tech features.",
+      "available": true,
+      "created_at": "2026-01-06T00:00:00.000Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "car_id": 1,
+      "start_date": "2026-04-10",
+      "end_date": "2026-04-12",
+      "total_price": 130,
+      "status": "pending",
+      "created_at": "2026-04-02T17:21:11.253Z"
+    },
+    {
+      "id": 2,
+      "user_id": 3,
+      "car_id": 3,
+      "start_date": "2026-04-04",
+      "end_date": "2026-04-11",
+      "total_price": 840,
+      "status": "pending",
+      "created_at": "2026-04-02T17:31:24.606Z"
+    }
+  ]
+}
